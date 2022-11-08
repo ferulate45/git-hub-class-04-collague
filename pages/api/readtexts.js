@@ -1,3 +1,5 @@
+// Next.js API route support: https://nextjs.org/docs/api-routes/introduction
+
 import fs from "fs";
 import path from "path";
 import getConfig from "next/config";
