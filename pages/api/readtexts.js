@@ -12,7 +12,7 @@ export default async function readtext(req, res) {
   
   const dir = path.join(
     serverRuntimeConfig.PROJECT_ROOT,
-    "./public",
+    "./public/static",
     dirRelativeToPublicFolder
     );
     const filenames = fs.readdirSync(dir);
