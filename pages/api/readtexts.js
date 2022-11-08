@@ -22,6 +22,5 @@ export default async function readtext(req, res) {
     temp.push(separarString(mensaje));
    }
   
-  res.statusCode = 200;
-  res.json(temp);
+  res.status(200).json(temp)
 }

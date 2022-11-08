@@ -1,3 +1,5 @@
+// Next.js API route support: https://nextjs.org/docs/api-routes/introduction
+
 import fs from 'fs'
 import path from 'path'
 import getConfig from 'next/config'
@@ -13,6 +15,5 @@ export default function readfiles (req, res) {
 
   const images = filenames.map(name => path.join('/', dirRelativeToPublicFolder, name))
 
-  res.statusCode = 200
-  res.json(images);
+  res.status(200).json(images)
 }
