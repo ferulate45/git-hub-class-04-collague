@@ -7,7 +7,7 @@ useEffect(() => {
     const el = document.querySelectorAll("[data-id]");
       if (el) { 
         for (let index = 0; index < el.length; index++) {
-          let html = `<div class="abosulut-card"><h3>Felicidades ${setting.name[index]}!!!<br/>Has hecho un mergue ruquest exitosamente</h3> </div>`;
+          let html = `<div class="abosulut-card"><h3>Felicidades! ${setting.name[index]}!!!<br/>Has hecho un merge request exitosamente</h3> </div>`;
           let div = document.createElement("div");
           div.classList.add("hover-container");
           div.innerHTML = html;
