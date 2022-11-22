@@ -6,7 +6,6 @@ export default function Home() {
   const [loading, setLoading] = useState(true);
   const [data, setData] = useState(null)
   
-  
   useEffect(() => {
     setLoading(true)
     fetch('/api/readtexts')
