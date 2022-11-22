@@ -1,6 +1,6 @@
 import styles from '../styles/Home.module.css'
 import React, { useState, useEffect } from 'react'
-import Collague from '../components/collague';
+import Collague from '/components/collague';
 
 export default function Home() {
   const [loading, setLoading] = useState(true);
