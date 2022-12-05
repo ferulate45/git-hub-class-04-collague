@@ -18,7 +18,7 @@ export default function Home() {
   
   const setting = {
     width: "1200px",
-    height: ["300px", "240px"],
+    height: ["400px", "340px"],
     layout: [4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4],
     photos: [],
     showNumOfRemainingPhotos: true,
